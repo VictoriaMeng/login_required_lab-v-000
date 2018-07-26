@@ -18,6 +18,6 @@ class SecretsController < ApplicationController
   private
 
   def require_login
-    redirect_to secrets_path unless session[:name]
+    redirect_to root_path unless session[:name]
   end
 end
