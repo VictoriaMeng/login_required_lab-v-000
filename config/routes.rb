@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'secrets#login'
+  root 'sessions#login'
   get '/welcome' => 'secrets#welcome'
   post '/login' => 'secrets#login'
   get '/show' => 'secrets#show'
