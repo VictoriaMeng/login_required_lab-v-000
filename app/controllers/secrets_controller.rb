@@ -10,6 +10,9 @@ class SecretsController < ApplicationController
     session[:name] = params[:name]
   end
 
+  def welcome
+  end
+
   private
 
   def require_login
