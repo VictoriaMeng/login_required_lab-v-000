@@ -9,4 +9,10 @@ class ApplicationController < ActionController::Base
   def current_user
     session[:name]
   end
+
+  private
+
+  def require_login
+    redirect_to root_path unless current_user
+  end
 end
