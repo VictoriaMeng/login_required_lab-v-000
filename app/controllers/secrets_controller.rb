@@ -3,7 +3,7 @@ class SecretsController < ApplicationController
   # skip_before_action :require_login, only: [:index, :login]
 
   def index
-    binding.pry
+
   end
 
   def login
