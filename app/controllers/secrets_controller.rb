@@ -3,6 +3,7 @@ class SecretsController < ApplicationController
     binding.pry
   end
 
-  def login 
+  def login
+    binding.pry
   end
 end
