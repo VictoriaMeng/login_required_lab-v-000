@@ -1,4 +1,4 @@
 class SecretsController < ApplicationController
-  def login 
+  def login
   end
 end
