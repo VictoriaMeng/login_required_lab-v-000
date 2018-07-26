@@ -6,7 +6,7 @@ class SecretsController < ApplicationController
   end
 
   def login
-    session[:name] = params[:name]
+
     redirect_to welcome_path
   end
 
