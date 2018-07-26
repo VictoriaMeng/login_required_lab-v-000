@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/' => 'secrets#login'
+  get '/' => 'secrets#index'
 end
