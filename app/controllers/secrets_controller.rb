@@ -16,6 +16,9 @@ class SecretsController < ApplicationController
     binding.pry
   end
 
+  def show 
+  end
+
   private
 
   def require_login
