@@ -7,6 +7,7 @@ class SecretsController < ApplicationController
   end
 
   def login
+    binding.pry
   end
 
   private
