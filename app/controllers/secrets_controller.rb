@@ -13,10 +13,9 @@ class SecretsController < ApplicationController
 
   def welcome
     @name = current_user
-    binding.pry
   end
 
-  def show 
+  def show
   end
 
   private
