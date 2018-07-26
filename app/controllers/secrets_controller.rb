@@ -1,5 +1,5 @@
 class SecretsController < ApplicationController
-  def login
+  def index
     binding.pry
   end
 end
