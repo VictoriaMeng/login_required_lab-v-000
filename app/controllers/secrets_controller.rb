@@ -6,6 +6,11 @@ class SecretsController < ApplicationController
     binding.pry
   end
 
+  def login
+    session[:name] = params[:name]
+    redirect_to welcome_path
+  end
+
   def welcome
 
   end
