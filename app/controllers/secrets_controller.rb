@@ -12,7 +12,7 @@ class SecretsController < ApplicationController
   end
 
   def welcome
-
+    binding.pry
   end
 
   private
