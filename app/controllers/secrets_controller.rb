@@ -5,5 +5,6 @@ class SecretsController < ApplicationController
 
   def login
     binding.pry
+    session[:name] = params[:name]
   end
 end
